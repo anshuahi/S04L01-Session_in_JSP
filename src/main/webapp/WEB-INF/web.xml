@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SiteController</servlet-name>
+  	<display-name>SiteController</display-name>
+  	<description></description>
+  	<servlet-class>org.anshuahi.SiteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MemberAreaControler</servlet-name>
+  	<display-name>MemberAreaControler</display-name>
+  	<description></description>
+  	<servlet-class>org.anshuahi.MemberAreaControler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SiteController</servlet-name>
+  	<url-pattern>/SiteController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MemberAreaControler</servlet-name>
+  	<url-pattern>/MemberAreaControler</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
